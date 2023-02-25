@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url("https://source.unsplash.com/1600x900/?nature");
+    /* background-color: black; */
+}
+#container{
+    text-align:center;
+    margin-top:200px;
+}
+h1{
+    background:linear-gradient(to left, rgb(153, 0, 255),rgb(255, 140, 0),rgb(0, 0, 255),rgb(0, 210, 221));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1:hover{
+    text-decoration: underline;
+    text-decoration-color:blue;
+}
+#btn_gen{
+    height:30px;
+    border-radius:30px;
+    border:2px solid red;
+    font-weight:bolder;
+}
+#btn_gen:hover{
+    cursor:pointer;
+   border:2px solid aqua;
+   background-color: black;
+   color:white;
+}
+#source{
+    color:rgb(140, 240, 232);
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#source:hover{
+   
+    font-size:20px;
+}
+#quote{
+    color:yellow;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#quote:hover{
+    font-size:20px;
+   
+}
